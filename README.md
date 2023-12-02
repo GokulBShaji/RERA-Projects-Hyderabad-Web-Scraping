@@ -26,7 +26,15 @@ To scrape all the RERA approved builder informations from MagicBricks web-site.
 - Then there itself(in the terminal) write scrapy crawl builder -o first_run300-rest.csv
 - Then create a new python file by the name combine.py in the main project folder i.e pythonProject_RERA/magic here.
 - Then paste the code from combine.py file of this repository there and run it.
-- This completes the procedure
-  
+- This completes the procedure and the final output is an excel file by the name Builders_Database.xlsx
+
+ ## Results
+ - There are 29 columns in the excel file (Builders_Datatbase.xlsx)
+ - The Name column indicates the name of the builder project
+ - The remaining 28 columns are pairs of 2 i.e column P_1 and PV_1 are pairs simlarly P_2 and PV_2 are pairs and so on till P_14 and PV_14.
+ - P_1 means - Parameter 1 and PV_1 means - Parameter Value 1 and same are the cases for remaining columns
+
+## Possible errors and suggestions
+- In case of 403 error in terminal , close and relaunch the terminal
   
 
