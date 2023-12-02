@@ -1,2 +1,3 @@
 # RERA-Projects-Hyderabad-Web-Scraping
-Educational purpose project for scraping magic bricks
+This project is solely done for educational purpose and is not meant for commercial use
+
